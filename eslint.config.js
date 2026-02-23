@@ -8,9 +8,9 @@ export default [
     languageOptions: {
       ecmaVersion: "latest",
       sourceType: "module",
-      // globals: {
-      //   console: "readonly"
-      // }
+      globals: {
+        console: "readonly"
+      }
     },
     rules: {
       "no-unused-vars": "error",
